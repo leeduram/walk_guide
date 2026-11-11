@@ -1,0 +1,28 @@
+name: walk_guide
+description: "단일 카메라 보행 보조 앱 (점자블록 / 사람 / 장애물 탐지)"
+publish_to: 'none'
+
+version: 1.0.24+26
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Official Ultralytics plugin: native camera + LiteRT YOLO inference (AGPL-3.0).
+  ultralytics_yolo: ^0.6.13
+  audioplayers: ^6.5.0
+  sensors_plus: ^7.0.0
+  wakelock_plus: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/models/
