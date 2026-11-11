@@ -2,6 +2,18 @@
 
 LiDAR·초음파 없이 **스마트폰 카메라 한 대**로 점자블록·사람·장애물을 실시간 탐지(YOLO 이미지 디텍션)하는 보행 보조 앱입니다.
 
+## 화면
+
+| 개선 전 | 개선 후 |
+|---|---|
+| <img src="screenshots/before.jpg" width="400"> | <img src="screenshots/braille.jpg" width="400"> |
+| 큰 박스 하나로 인식해 옆 보도블록까지 덮임 | 점자블록을 따라 노란 띠로 표시 |
+
+| 장애물 경고 | 방향 기억 |
+|---|---|
+| <img src="screenshots/obstacle.jpg" width="400"> | <img src="screenshots/direction.jpg" width="400"> |
+| 진행 방향 3m 안의 장애물을 빨간 박스로 표시 | 고개를 돌려도 점자블록 방향을 화면 끝에 표시 |
+
 ## 실행 (APK 설치 방식)
 
 1. Android Studio에서 `pubspec.yaml` 화면 위의 **Pub get** (패키지가 바뀐 업데이트 때만 필요).
